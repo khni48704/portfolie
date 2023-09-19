@@ -146,6 +146,14 @@ p{
     letter-spacing: 1px;
 }
 
+.skalering_af_tekst_i_profilbilledeboks{
+    padding: 40px;
+}
+
+.skalering_af_tekst_i_portfolie{
+    padding: 40px;
+}
+
 .portfoliesektion {
 padding-left: 40px;
 padding-top: 50px;
@@ -198,7 +206,7 @@ background-color: rgb(238, 180, 93);
     opacity: 65%;
 }
 
-/*nu kommer */
+/*nu kommer ipad*/
 @media only screen and (min-width:750px){
     .profilbilledeboks {
         display: flex;
@@ -207,11 +215,14 @@ background-color: rgb(238, 180, 93);
    
         }
 
+        .profilbillede {
+            width: 390px;
+            height: auto;
+        }
+
 .skalering_af_tekst_i_profilbilledeboks{
     width: 90%;
-    padding-right: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+   
 }
 
 
@@ -260,12 +271,6 @@ background-color: rgb(238, 180, 93);
         padding-bottom: none;
         padding-left: 90px;
         padding-right: 90px;
-        }
-
-        .profilbillede {
-            padding-left: 80px;
-            width: 490px;
-            height: auto;
         }
 
         .portfoliesektion {

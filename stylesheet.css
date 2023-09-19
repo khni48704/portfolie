@@ -1,0 +1,286 @@
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fcfbf4;
+}
+
+/*menu bar styling*/ /*menu bar styling*/ /*menu bar styling*/ /*menu bar styling*/
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: rgb(238, 180, 93);
+    color: #000000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo {
+    height: 60px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Style the burger menu icon for desktop */
+.burger-menu {
+    display: none;
+}
+/*menu bar styling slut */ /*menu bar styling slut */ /*menu bar styling slut */
+
+.navnboks {
+    background-color: rgb(253, 204, 131);
+    width: 90%;
+    margin: 20px 20px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.profilbilledeboks {
+background-color: rgb(255, 192, 97);
+padding-left: 40px;
+padding-top: 50px;
+padding-bottom: 40px;
+/*display: flex;
+ flex-direction: row-reverse; */
+
+ position: relative;
+ top: 70px;
+ z-index: 1;
+}
+
+.profilbillede {
+    height: 25vh;
+    width: auto;
+    display: flex;
+    margin: auto;
+    padding: 5%;
+}
+
+
+H1{
+    font-size: 50px;
+    display: flex;
+    margin: auto;
+    font-family: "kobenhavn-cs", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+H2{
+    font-size: 30px;
+    display: flex;
+    margin:auto; 
+    font-family: "kobenhavn-cs", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+#overskrift-portfolie{
+    color: black;
+}
+
+H3{
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    font-family: "kobenhavn-cs", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+H4{
+    font-size: 20px;
+    display: flex;
+    margin:auto; 
+    font-family: "kobenhavn-cs", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+p{
+    font-size: 16px;
+    margin: 1px;
+    font-family: "kobenhavn-cs", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.portfoliesektion {
+padding-left: 40px;
+padding-top: 50px;
+padding-bottom: 40px;
+}
+
+.portfolieicon {
+    height: 250px;
+    width: auto;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin: auto
+}
+
+.tekst_portfolie{
+ text-decoration: none;
+ color: #4fbd53;
+ font-weight: bold;
+}
+
+.tekst_hvem_er_kasper {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer{
+    padding: 3rem;
+    margin-top: auto;
+background-color: rgb(238, 180, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover effekt */
+.raket{
+    width: 50px;
+    transition: transform 1000ms;
+}
+
+.raket:hover {
+    transform: translateY(-1.4rem);
+    transition: transform 250ms;
+}
+
+.portfolieicon:hover {
+    height: 260px;
+    opacity: 65%;
+}
+
+/*nu kommer */
+@media only screen and (min-width:750px){
+    .profilbilledeboks {
+        display: flex;
+        flex-direction:column;
+        flex-direction:row;
+   
+        }
+
+.skalering_af_tekst_i_profilbilledeboks{
+    width: 90%;
+    padding-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.portfoliesektion {
+    display: flex;
+    flex-direction:column;
+    flex-direction:row-reverse;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.skalering_af_tekst_i_portfolie {
+    width: 90%;
+    padding-top: 50px;
+}
+
+.hovereffekt {
+    padding-right: 30px;
+}
+
+.navnboks {
+    margin: 20px 20px 20px 40px;
+}
+
+}
+
+/*nu kommer web*/
+@media only screen and (min-width:950px){
+    .navnboks {
+        margin: 20px 20px 20px 90px;
+    }
+    .skalering_af_tekst_i_profilbilledeboks{
+        width: 90%;
+    }
+    
+    .skalering_af_tekst_i_portfolie {
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .profilbilledeboks {
+        display: flex;
+        flex-direction:column;
+        flex-direction:row;
+        padding-top: 80px ;
+        padding-bottom: none;
+        padding-left: 90px;
+        padding-right: 90px;
+        }
+
+        .profilbillede {
+            padding-left: 80px;
+            width: 490px;
+            height: auto;
+        }
+
+        .portfoliesektion {
+            display: flex;
+            flex-direction:column;
+            flex-direction:row-reverse;
+            margin-left: 40px;
+            margin-right: 40px;
+            padding-top: 80px ;
+            padding-bottom: 30px;
+            padding-left: 120px;
+            padding-right: 100px;
+        }
+
+        .portfolieicon {
+        height: 250px;
+        }
+}

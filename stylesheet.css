@@ -249,7 +249,7 @@ background-color: rgb(238, 180, 93);
 
 .projekt_2_kasse {
     width: 100%;
-    height: 250px;
+    height: 2000px;
     background-color: #4fbd53;
 }
 
@@ -262,10 +262,20 @@ background-color: rgb(238, 180, 93);
 
 .projekt_2_billeder{
 display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-content: flex-start;
+gap: 2em;
 }
 
 .projekt_2_billederedigering{
 display: flex;
+width: 300px;
+height: auto;
+}
+
+.projekt_2_tekst {
+    margin: 20px;
 }
 
 /*nu kommer ipad*/

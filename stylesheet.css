@@ -98,7 +98,7 @@ H1{
     margin: auto;
     font-family: "kobenhavn-cs", sans-serif;
     font-weight: 700;
-    font-style: bold;
+    
 }
 
 H2{
@@ -357,7 +357,6 @@ height: auto;
         flex-direction:column;
         flex-direction:row;
         padding-top: 80px ;
-        padding-bottom: none;
         padding-left: 90px;
         padding-right: 90px;
         }
